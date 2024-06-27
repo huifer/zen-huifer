@@ -18,6 +18,12 @@ export default defineConfig({
 						name: "google-adsense-account",
 						content:"ca-pub-2032930149616773"
 					}
+				},{
+					tag: "meta",
+					attrs:{
+						name: "google-site-verification",
+						content:"Fqv9hAyD2E_rk3WqbMs9ZZ26e5UbnYVx1IJl7yltcWM"
+					}
 				}
 			],
 			title: 'Zen HuiFer Doc',
