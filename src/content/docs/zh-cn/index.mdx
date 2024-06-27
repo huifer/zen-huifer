@@ -1,0 +1,39 @@
+---
+title: 👋 我是 Zen HuiFer
+description: 感谢您找到了这个网页，这里都是我的一些想法。
+template: splash
+hero:
+  tagline: 感谢您找到了这个网页，这里都是我的一些想法。
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: 我的思考
+      link: /zh-cn/guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: 我的介绍
+      link: /zh-cn/about/example/
+      icon: right-arrow
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+## 关于我
+<CardGrid>
+	<Card title="作者" icon="pencil">
+        我是一位专注于源码解析的软件开发书籍作者。
+	</Card>
+	<Card title="开发者" icon="github">
+        我是一位专业的后端开发者，拥有丰富的后端系统开发经验，同时我也具备一定的前端开发能力。
+	</Card>
+	<Card title="运动" icon="heart">
+        我是一个热爱骑行的公路自行车手，对探索新路线和挑战自我充满热情。
+	</Card>
+	<Card title="关注我" icon="star">
+        如果可以请关注我
+        1. [github](https://github.com/huifer)
+        2. [x](https://x.com/fer_hui14457)
+	</Card>
+</CardGrid>
