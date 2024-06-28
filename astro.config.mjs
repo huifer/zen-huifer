@@ -4,7 +4,7 @@ import vercel from '@astrojs/vercel/serverless';
 // https://astro.build/config
 export default defineConfig({
 
-	site: "https://zen-huifer.vercel.app/",
+	site: "https://zen-huifer.pages.dev",
 	integrations: [
 		starlight({
 			head: [
